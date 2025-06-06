@@ -1,0 +1,101 @@
+.logo{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(0, 0, 0)
+
+}
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    background-color: black;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(24, 24, 24);
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+}
+
+.border{
+    border-bottom: 2px solid rgb(24,24,24);
+}
+
+#head{
+    color: black;
+}
+div img{
+    width: 100vw;
+    height: 60vh;
+    filter: brightness(40%) blur(5px);
+ }
+
+div h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 25vw;
+    color: white;
+    font-size: 4.5vw;
+}
+
+p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 30vw;
+    color: white;
+    font-size: 2.22vw
+}
+
+.all{
+    border: 2px solid gray;
+    width: 30vw;
+    height: 80vh;
+    background-color: rgb(29, 29, 29);
+    display:inline-block;
+}
+
+.all_weeks{
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.holiday{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    font-size:5vw;
+}
+
+.box{
+    position: absolute;
+    top: 25vh;
+    right: 30vw;
+    border: 1px solid white;
+    box-shadow: 2px 3px #ffffff 
+}
+
+footer{
+    border: 2px solid white;
+    width: 98vw;
+    height: 22vh;
+}
+
+.footw{
+    color: white;
+    justify-content: center;
+}
